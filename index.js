@@ -23,13 +23,17 @@
         });
         video.src({
             type: 'application/dash+xml',
-            src: 'stream/mpd/sample/index.mpd',
-            keySystemOptions: [{
-                name: 'com.widevine.alpha',
-                options: {
-                    serverURL: 'https://widevine-proxy.appspot.com/proxy'
+            src: 'stream/Bullfinch.mpd',
+            keySystemOptions: [
+                {
+                    name: 'org.w3.clearkey',
+                    options: {
+                        'clearkeys': {
+                            'OCYfniLWkYVAQNXDwaqUeQ': 'jfUe14GofJhw1Sw0yde2eQ'
+                        }
+                    }
                 }
-            }]
+            ]
         });
 
         video.on(['loadstart', 'loadedmetadata', 'loadeddata', 'play', 'playing', 'pause', 'suspend', 'seeking', 'seeked', 'waiting', 'canplay', 'canplaythrough', 'ratechange', 'ended', 'emptied', 'error', 'abort'], (e) => {
