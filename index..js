@@ -23,7 +23,7 @@
         });
         video.src({
             type: 'application/dash+xml',
-            src: 'http://anythingsave.html.xdomain.jp/download/stream/Bullfinch.mpd',
+            src: 'stream/Bullfinch.mpd',
             keySystemOptions: [
                 {
                     name: 'org.w3.clearkey',
