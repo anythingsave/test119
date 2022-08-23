@@ -28,9 +28,7 @@
                 {
                     name: 'org.w3.clearkey',
                     options: {
-                        'clearkeys': {
-                            'OCYfniLWkYVAQNXDwaqUeQ': 'jfUe14GofJhw1Sw0yde2eQ'
-                        }
+                        
                     }
                 }
             ]
