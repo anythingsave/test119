@@ -29,7 +29,7 @@
                     name: 'org.w3.clearkey',
                     options: {
                         'clearkeys': {
-                            'OCYfniLWkYVAQNXDwaqUeQ': 'jfUe14GofJhw1Sw0yde2eQ'
+                            '1VI0hYI9HsK973mxCNnqcM97tBZA8CFDi/SiAbIOv50': 'n+pHHerOjt1zaoz8NogT+XiglblDo+9FHpk2eL5Z9Ew'
                         }
                     }
                 }
